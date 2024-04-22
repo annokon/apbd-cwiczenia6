@@ -12,7 +12,7 @@ public class UpdateAnimal
     public string Name { get; set; }
         
     [MaxLength(200)]
-    public string Description { get; set; }
+    public string? Description { get; set; }
         
     [MaxLength(200)]
     public string Category { get; set; }

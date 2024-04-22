@@ -19,5 +19,4 @@ public class AddAnimal
     
     [MaxLength(200)]
     public string Area { get; set; }
-    
 }
